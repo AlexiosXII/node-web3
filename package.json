@@ -1,0 +1,17 @@
+{
+  "name": "node-web3",
+  "version": "1.0.0",
+  "description": "-",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "create-acc": "node ./batch/createAccount/index.js"
+  },
+  "author": "",
+  "license": "GNU GENERAL PUBLIC LICENSE",
+  "dependencies": {
+    "dotenv": "^9.0.0",
+    "prompts": "^2.4.1",
+    "web3": "^1.3.5"
+  }
+}
